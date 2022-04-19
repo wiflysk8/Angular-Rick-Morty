@@ -1,0 +1,23 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "There is little to no dual 1440p wallpapers on this app. Here is my contribution to fix that.",
+	"file" : "scene.json",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0.004 0.184 0.345"
+			}
+		}
+	},
+	"preview" : "preview.png",
+	"tags" : [ "Sci-Fi" ],
+	"title" : "Dual 1440p Space",
+	"type" : "scene",
+	"visibility" : "public"
+}

@@ -1,0 +1,25 @@
+<section>
+  <div>
+  <form (ngSubmit)="onSubmit()" [formGroup]="contactForm">
+    <input type="text" formControlName="name" placeholder="Name*" />
+    <span  *ngIf="contactForm.controls['name'].errors">Campo oblgatorio</span>
+    <input type="mail" formControlName="email" placeholder="Email*" />
+    <span  *ngIf="contactForm.controls['email'].errors">Campo oblgatorio</span>
+    <textarea
+      name="description"
+      id=""
+      cols="30"
+      rows="3"
+      formControlName="description"
+      placeholder="Description"
+    ></textarea>
+    <p>Select Race*:</p>
+    <select name="race" formControlName="race">
+      <option value="" >Select an option</option>
+      <option value="human">Human</option>
+      <option value="alien">Alien</option>
+    </select>
+    <button>Enviar</button>
+  </form>
+</div>
+</section>

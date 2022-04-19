@@ -1,2 +1,7 @@
-<h1>Characters</h1>
-<button (click)="plusCounter()">Suma 1</button>
+<div>
+<form (ngSubmit)="onSearch()" [formGroup]="gestionForm">
+<input type="text" name="" id="" placeholder="Search Character" formControlName="name">
+<app-gallery [gallery]="characters"></app-gallery>
+<app-pagination (changePageEmmiter)="paginate($event, searchCharacter)"></app-pagination>
+</form>
+</div>

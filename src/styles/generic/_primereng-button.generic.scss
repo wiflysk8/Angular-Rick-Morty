@@ -1,0 +1,12 @@
+.g-primeng-button{
+  .p-button{
+  color: #ffffff;
+    background: #43db11;
+    border: 3px solid #250464;
+    margin: 30px;
+    &:hover{
+      color: lime;
+      background-color: #250464;
+    }
+  }
+}

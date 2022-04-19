@@ -1,0 +1,10 @@
+<section class="c-characters">
+  <article class="c-characters-gallery">
+  <figure class="c-characters-gallery__item" *ngFor="let item of gallery">
+    <figcaption><h3>{{item.name}}</h3></figcaption>
+    <img src="{{item.image}}" alt="" *ngIf="item.image" routerLink="/characters/{{item.id}}">
+    <img src="https://www.pnguniverse.com/wp-content/uploads/2020/09/Mapa-mundi-2.png" alt="" *ngIf="!item.image">
+  </figure>
+  </article>
+  </section>
+

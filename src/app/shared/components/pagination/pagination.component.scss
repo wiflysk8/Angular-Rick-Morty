@@ -1,0 +1,17 @@
+div{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  color: lime;
+  font-size: 28px;
+  font-weight: bold;
+  img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  };
+
+  p{
+    margin: 0px 10px;
+  };
+}

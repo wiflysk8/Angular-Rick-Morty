@@ -1,0 +1,23 @@
+section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+  height: 80px;
+  a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 22px;
+    margin: 20px;
+    color: lime;
+    background-color: rgba(128, 0, 128, 0.13);
+  }
+}
+
+div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+}

@@ -1,0 +1,22 @@
+{
+	"contentrating" : "Everyone",
+	"file" : "planety_vselennaya_galaktika_zvezdy_vspyshka_59622_1920x1080_1.mp4",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0 0 0"
+			}
+		}
+	},
+	"preview" : "preview.jpg",
+	"tags" : [ "Fantasy" ],
+	"title" : "Space",
+	"type" : "video",
+	"visibility" : "public"
+}

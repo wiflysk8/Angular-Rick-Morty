@@ -1,0 +1,31 @@
+@font-face {
+	font-family: "Schwifty";
+	src: url(../../../assets/fonts/get-schwifty.ttf);
+	font-weight: solid;
+}
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 60px;
+  .c-tittle{
+    img{
+      width: 600px;
+      height: 180px;
+    }
+  }
+
+  img{
+    width:500px;
+    height: 500px;
+    filter: drop-shadow(10px 10px 10px rgb(2, 251, 2));
+  }
+
+h1{
+  font-size: 60px;
+  color: lime;
+  text-shadow: 10px solid aqua;
+}
+
+}
